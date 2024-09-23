@@ -29,7 +29,7 @@
                         break;
 
                     case 2:
-                        Substraction();
+                        Subtraction();
                         break;
 
                     case 3:
