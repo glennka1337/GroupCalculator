@@ -6,5 +6,11 @@
         {
             Console.WriteLine("Hello, World!");
         }
+
+        static int Division(int userInput1, int userInput2)
+        {
+            int sum = userInput1 / userInput2;
+            return sum;
+        }
     }
 }
