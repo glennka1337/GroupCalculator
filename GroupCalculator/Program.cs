@@ -26,22 +26,27 @@
                 switch (menuChoice)
                 {
                     case 1:
+                        Console.Clear();
                         Addition();
                         break;
 
                     case 2:
+                        Console.Clear();
                         Subtraction();
                         break;
 
                     case 3:
+                        Console.Clear();
                         Multiplication();
                         break;
 
                     case 4:
+                        Console.Clear();
                         Division();
                         break;
 
                     default:
+                        Console.Clear();
                         run = false;
                         break;
 
