@@ -4,7 +4,51 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Console.WriteLine("Välkommen till miniräknaren! ");
+            Console.ReadKey();
+            Console.Clear();
+
+            Console.WriteLine("Välj någon av nedanstående räkneoperatorer: ");
+            Console.WriteLine("1. Addition");
+            Console.WriteLine("2. Subtraktion");
+            Console.WriteLine("3. Multiplikation");
+            Console.WriteLine("4. Division");
+            Console.WriteLine("5. Avsluta ");
+
+            int menuChoice = int.Parse(Console.ReadLine());
+
+
+            bool run = true;
+
+            while (run)
+            {
+                switch (menuChoice)
+                {
+                    case 1:
+                        Addition();
+                        break;
+
+                    case 2:
+                        Substraction();
+                        break;
+
+                    case 3:
+                        Multiplication();
+                        break;
+
+                    case 4:
+                        Division();
+                        break;
+
+                    default:
+                        run = false;
+                        break;
+
+                }
+            }
+
+
+       
         }
     }
 }
