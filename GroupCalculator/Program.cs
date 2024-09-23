@@ -8,6 +8,12 @@
             Console.ReadKey();
             Console.Clear();
 
+
+
+            bool run = true;
+
+            while (run)
+            {
             Console.WriteLine("Välj någon av nedanstående räkneoperatorer: ");
             Console.WriteLine("1. Addition");
             Console.WriteLine("2. Subtraktion");
@@ -17,11 +23,6 @@
 
             int menuChoice = int.Parse(Console.ReadLine());
 
-
-            bool run = true;
-
-            while (run)
-            {
                 switch (menuChoice)
                 {
                     case 1:
